@@ -1,0 +1,4 @@
+CandidateA=  1
+CandidateB=  2
+CandidateC=  0
+NOTA=  1

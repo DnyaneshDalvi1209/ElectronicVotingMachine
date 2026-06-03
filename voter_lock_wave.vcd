@@ -1,0 +1,47 @@
+$date
+	Mon Mar 16 21:41:34 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module voter_lock_tb $end
+$var wire 1 ! allow_vote $end
+$var reg 1 " cast_vote $end
+$var reg 1 # valid_voter $end
+$var reg 3 $ voter_index [2:0] $end
+$scope module uut $end
+$var wire 1 " cast_vote $end
+$var wire 1 # valid_voter $end
+$var wire 3 % voter_index [2:0] $end
+$var reg 1 ! allow_vote $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 &
+b0 %
+b0 $
+0#
+0"
+0!
+$end
+#10
+1!
+b11 $
+b11 %
+1#
+#30
+0!
+1"
+#40
+0"
+#80
+1"
+#90
+0"
+#120

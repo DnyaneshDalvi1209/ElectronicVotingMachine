@@ -1,0 +1,269 @@
+$date
+	Thu Apr 23 10:32:20 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module evm_system_tb $end
+$var wire 3 ! voter_index [2:0] $end
+$var wire 1 " valid_voter $end
+$var wire 8 # nota_votes [7:0] $end
+$var wire 3 $ log_voter7 [2:0] $end
+$var wire 3 % log_voter6 [2:0] $end
+$var wire 3 & log_voter5 [2:0] $end
+$var wire 3 ' log_voter4 [2:0] $end
+$var wire 3 ( log_voter3 [2:0] $end
+$var wire 3 ) log_voter2 [2:0] $end
+$var wire 3 * log_voter1 [2:0] $end
+$var wire 3 + log_voter0 [2:0] $end
+$var wire 2 , log_vote7 [1:0] $end
+$var wire 2 - log_vote6 [1:0] $end
+$var wire 2 . log_vote5 [1:0] $end
+$var wire 2 / log_vote4 [1:0] $end
+$var wire 2 0 log_vote3 [1:0] $end
+$var wire 2 1 log_vote2 [1:0] $end
+$var wire 2 2 log_vote1 [1:0] $end
+$var wire 2 3 log_vote0 [1:0] $end
+$var wire 8 4 candidate_C_votes [7:0] $end
+$var wire 8 5 candidate_B_votes [7:0] $end
+$var wire 8 6 candidate_A_votes [7:0] $end
+$var wire 1 7 allow_vote $end
+$var reg 8 8 biometric_hash [7:0] $end
+$var reg 1 9 cast_vote $end
+$var reg 1 : scan $end
+$var reg 2 ; vote_sel [1:0] $end
+$var integer 32 < file [31:0] $end
+$scope module audit $end
+$var wire 1 9 cast_vote $end
+$var wire 2 = vote_sel [1:0] $end
+$var wire 3 > voter_index [2:0] $end
+$var wire 1 7 allow_vote $end
+$var reg 3 ? log_ptr [2:0] $end
+$var reg 2 @ log_vote0 [1:0] $end
+$var reg 2 A log_vote1 [1:0] $end
+$var reg 2 B log_vote2 [1:0] $end
+$var reg 2 C log_vote3 [1:0] $end
+$var reg 2 D log_vote4 [1:0] $end
+$var reg 2 E log_vote5 [1:0] $end
+$var reg 2 F log_vote6 [1:0] $end
+$var reg 2 G log_vote7 [1:0] $end
+$var reg 3 H log_voter0 [2:0] $end
+$var reg 3 I log_voter1 [2:0] $end
+$var reg 3 J log_voter2 [2:0] $end
+$var reg 3 K log_voter3 [2:0] $end
+$var reg 3 L log_voter4 [2:0] $end
+$var reg 3 M log_voter5 [2:0] $end
+$var reg 3 N log_voter6 [2:0] $end
+$var reg 3 O log_voter7 [2:0] $end
+$upscope $end
+$scope module auth $end
+$var wire 8 P biometric_hash [7:0] $end
+$var wire 1 : scan $end
+$var reg 1 " valid_voter $end
+$var reg 3 Q voter_index [2:0] $end
+$var integer 32 R i [31:0] $end
+$upscope $end
+$scope module lock $end
+$var wire 1 9 cast_vote $end
+$var wire 1 " valid_voter $end
+$var wire 3 S voter_index [2:0] $end
+$var reg 1 7 allow_vote $end
+$var integer 32 T i [31:0] $end
+$upscope $end
+$scope module vote $end
+$var wire 1 7 allow_vote $end
+$var wire 1 9 cast_vote $end
+$var wire 2 U vote_sel [1:0] $end
+$var reg 8 V candidate_A_votes [7:0] $end
+$var reg 8 W candidate_B_votes [7:0] $end
+$var reg 8 X candidate_C_votes [7:0] $end
+$var reg 8 Y nota_votes [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b1000 T
+b0 S
+bx R
+b0 Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+b0 ?
+b0 >
+b0 =
+bx <
+b0 ;
+0:
+09
+bx 8
+07
+b0 6
+b0 5
+b0 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+b0 #
+0"
+b0 !
+$end
+#10
+17
+1"
+b1000 R
+b10110011 8
+b10110011 P
+1:
+#30
+07
+b1 6
+b1 V
+b1 ?
+b0 3
+b0 @
+b0 +
+b0 H
+19
+#40
+09
+#70
+17
+b11 !
+b11 >
+b11 Q
+b11 S
+b1000 R
+1"
+b1 ;
+b1 =
+b1 U
+b110011 8
+b110011 P
+#90
+07
+b10 ?
+b1 2
+b1 A
+b11 *
+b11 I
+b1 5
+b1 W
+19
+#100
+09
+#130
+17
+b1000 R
+b100 !
+b100 >
+b100 Q
+b100 S
+1"
+b11100011 8
+b11100011 P
+#150
+07
+b10 5
+b10 W
+b11 ?
+b1 1
+b1 B
+b100 )
+b100 J
+19
+#160
+09
+#190
+b1000 R
+b0 !
+b0 >
+b0 Q
+b0 S
+0"
+b1100110 8
+b1100110 P
+#210
+19
+#220
+09
+#250
+17
+b1 !
+b1 >
+b1 Q
+b1 S
+1"
+b1000 R
+b11 ;
+b11 =
+b11 U
+b1010101 8
+b1010101 P
+#270
+07
+b1 #
+b1 Y
+b100 ?
+b11 0
+b11 C
+b1 (
+b1 K
+19
+#280
+09
+#310
+b1000 R
+b11 !
+b11 >
+b11 Q
+b11 S
+1"
+b10 ;
+b10 =
+b10 U
+b110011 8
+b110011 P
+#330
+19
+#340
+09
+#390
+b10000000000000000000000000000011 <
+#400

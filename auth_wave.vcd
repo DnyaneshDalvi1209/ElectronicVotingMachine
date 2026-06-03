@@ -1,0 +1,57 @@
+$date
+	Mon Mar 16 21:11:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module auth_tb $end
+$var wire 3 ! voter_index [2:0] $end
+$var wire 1 " valid_voter $end
+$var reg 8 # biometric_hash [7:0] $end
+$var reg 1 $ scan $end
+$scope module uut $end
+$var wire 8 % biometric_hash [7:0] $end
+$var wire 1 $ scan $end
+$var reg 1 " valid_voter $end
+$var reg 3 & voter_index [2:0] $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b0 &
+b0 %
+0$
+b0 #
+0"
+b0 !
+$end
+#10
+1"
+b1000 '
+b10110011 #
+b10110011 %
+1$
+#30
+b1000 '
+0"
+b11111111 #
+b11111111 %
+#50
+b11 !
+b11 &
+1"
+b1000 '
+b110011 #
+b110011 %
+#70
+b0 !
+b0 &
+0"
+0$
+#90
